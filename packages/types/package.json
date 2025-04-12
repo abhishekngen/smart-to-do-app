@@ -1,0 +1,23 @@
+{
+  "name": "to-do-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.7.0",
+  "devDependencies": {
+    "supabase": "^2.20.12",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "~5.7.2"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  }
+}
